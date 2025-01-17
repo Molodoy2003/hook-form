@@ -1,0 +1,36 @@
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+* {
+  background-color: rgb(42, 42, 42);
+  color: #fff;
+}
+
+form {
+  > input,
+  > textarea {
+    width: 100%;
+    display: block;
+    padding: 6px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+    border-radius: 5px;
+    background-color: black;
+
+    &:focus {
+      border-color: aqua;
+    }
+  }
+
+  > textarea {
+    height: 10rem;
+    resize: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+}
