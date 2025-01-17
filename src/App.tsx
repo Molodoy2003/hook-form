@@ -14,7 +14,6 @@ export const App: FC = () => {
     formState: { errors },
     reset,
     // getValues,
-    
   } = useForm<IForm>({
     defaultValues: {},
     mode: 'onChange',
@@ -52,6 +51,7 @@ export const App: FC = () => {
         ></textarea>
         <button type='submit'>Send</button>
       </form>
+      <h1>тест кейс</h1>
     </>
   )
 }
