@@ -52,6 +52,7 @@ export const App: FC = () => {
         <button type='submit'>Send</button>
       </form>
       <h1>тест кейс</h1>
+      <h2>тест кейс 2</h2>
     </>
   )
 }
