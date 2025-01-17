@@ -51,8 +51,6 @@ export const App: FC = () => {
         ></textarea>
         <button type='submit'>Send</button>
       </form>
-      <h1>тест кейс</h1>
-      <h2>тест кейс 2</h2>
     </>
   )
 }
